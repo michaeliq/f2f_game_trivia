@@ -1,0 +1,23 @@
+p {
+    background: -webkit-linear-gradient(#fff, #eee,#0f3565);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.background-img-game{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
