@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42053614.css",
+    "main.js": "/static/js/main.41f30426.js",
+    "static/media/background_image.png": "/static/media/background_image.c427cdff4d26ef3315a5.png",
+    "static/media/modulo_panel.png": "/static/media/modulo_panel.d556e3b7f77b69360096.png",
+    "static/media/modulo_puntos_izq.png": "/static/media/modulo_puntos_izq.29e584c1b3cf044c264d.png",
+    "static/media/modulo_pregunta.png": "/static/media/modulo_pregunta.1b4cfd853b22ed80dfeb.png",
+    "static/media/modulo_opcion_d.png": "/static/media/modulo_opcion_d.99ed0f5696627d85207b.png",
+    "static/media/modulo_puntos_der.png": "/static/media/modulo_puntos_der.42bc374e7dd118a65d6f.png",
+    "static/media/modulo_opcion_a.png": "/static/media/modulo_opcion_a.314fa9b23164486aa846.png",
+    "static/media/modulo_opcion_c.png": "/static/media/modulo_opcion_c.b4207d82daceb25d4df2.png",
+    "static/media/modulo_opcion_b.png": "/static/media/modulo_opcion_b.2aa8abb2fdb1264ca43f.png",
+    "static/media/modulo_competidor_arriba.png": "/static/media/modulo_competidor_arriba.5ea13e476821c9877733.png",
+    "static/media/modulo_competidor_abajo.png": "/static/media/modulo_competidor_abajo.a28cc267ecb5e9d4b041.png",
+    "index.html": "/index.html",
+    "main.42053614.css.map": "/static/css/main.42053614.css.map",
+    "main.41f30426.js.map": "/static/js/main.41f30426.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42053614.css",
+    "static/js/main.41f30426.js"
+  ]
+}
