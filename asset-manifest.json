@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/f2f_game_trivia/static/css/main.c588055b.css",
+    "main.css": "/f2f_game_trivia/static/css/main.9fe7df67.css",
     "main.js": "/f2f_game_trivia/static/js/main.91b228e6.js",
     "static/media/background_image.png": "/f2f_game_trivia/static/media/background_image.c427cdff4d26ef3315a5.png",
     "static/media/f2f_challenge_logo.png": "/f2f_game_trivia/static/media/f2f_challenge_logo.f5913609e3b692cdba24.png",
@@ -16,11 +16,11 @@
     "static/media/modulo_competidor_abajo.png": "/f2f_game_trivia/static/media/modulo_competidor_abajo.a28cc267ecb5e9d4b041.png",
     "static/media/modulo_tiempo.png": "/f2f_game_trivia/static/media/modulo_tiempo.185bdaf027d2afea44f2.png",
     "index.html": "/f2f_game_trivia/index.html",
-    "main.c588055b.css.map": "/f2f_game_trivia/static/css/main.c588055b.css.map",
+    "main.9fe7df67.css.map": "/f2f_game_trivia/static/css/main.9fe7df67.css.map",
     "main.91b228e6.js.map": "/f2f_game_trivia/static/js/main.91b228e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c588055b.css",
+    "static/css/main.9fe7df67.css",
     "static/js/main.91b228e6.js"
   ]
 }
