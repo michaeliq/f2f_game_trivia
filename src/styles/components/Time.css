@@ -2,7 +2,7 @@
     position: absolute;
     width: 20vw;
     height: 70px;
-    right: 13vw;
+    right: -7vw;
     top: 16vh;
     display: flex;
     justify-content: flex-end;
@@ -21,4 +21,12 @@
 .time-box > p{
     margin-right: 3rem;
     font-size: 2.5rem;
+}
+
+p.reset-buttom-time{
+    position: absolute;
+    font-size: 2.1rem;
+    top: 8vh;
+    right: 0;
+    cursor: pointer;
 }

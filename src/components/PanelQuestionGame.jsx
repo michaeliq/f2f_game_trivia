@@ -6,6 +6,7 @@ import { useEffect, useState } from "react"
 import QuestionSimpo from "./QuestionSimpo"
 import PanelQr from "./PanelQr"
 import QuestionViewerData from "./QuestionViwerData"
+import Time from "./Time"
 
 const PanelQuestionGame = () => {
     const [question,setQuestion] = useState("")
@@ -54,6 +55,7 @@ const PanelQuestionGame = () => {
             <div onClick={()=> setDisplayQuestionData(prev => !prev)} className="display-data-question-box">
                 Mostrar Estadísticas de la pregunta {questionLater}
             </div>
+            <Time/>
             <QuestionSimpo setQuestion={setQuestionToSimpo} />
             <PanelGame text={question}/>
             <QuestionGame text={"Pregunta " + questionLater}/>
