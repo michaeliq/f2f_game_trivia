@@ -27,6 +27,8 @@ const PanelOptions = () => {
                 Swal.fire({
                     title: "Gracias por su voto",
                     icon: "success"
+                }).then(()=>{
+                    window.location.href = "https://f2falcon.agenciahat.com"
                 })
             }else{
                 Swal.fire({
