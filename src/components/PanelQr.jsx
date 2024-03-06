@@ -26,7 +26,7 @@ const PanelQr = ({ question,id, visible, setDisplayQr }) => {
         <>
             <div className={visible ? "panel-game-qr visible" : "panel-game-qr"}>
                 <img src={module_panel} className="module-panel-qr" alt="Imagen del Panel" />
-                <QrCode text={"https://simposio-alcon.agenciahat.com/present-options?"+urlQuestion} />
+                <QrCode text={"https://simposio-alcon.agenciahat.com/#/present-options?"+urlQuestion} />
                 <QuestionGame text={"ESCANEA EL CÓDIGO"} />
                 <div onClick={() => setDisplayQr(prev => !prev)} className="display-qr-box-close">
                     Cerrar QR
