@@ -3,7 +3,7 @@ import timeC from "../resources/modulo_tiempo.png"
 import "../styles/components/Time.css"
 
 const Time = () => {
-    const [time,setTime] = useState(30)
+    const [time,setTime] = useState(0)
 
     const ResetTime = () => {
         setTime(30)
@@ -32,7 +32,7 @@ const Time = () => {
             <img src={timeC} className="time-module" alt="Imagen caja de cuenta regresiva"/>
             <p>00:{time > 9 ? time : "0" + time}</p>
             {time === 0 && <p onClick={()=>ResetTime()} className="reset-buttom-time">
-                REINICIAR
+                INICIAR
             </p>}
         </div>
     )
