@@ -7,8 +7,6 @@ const ContainerGame = ({children}) => {
     return(
         <div className="container-game">
             <img src={background_img_ring} className="background-img-game" alt="Imagen del ring"/>
-            <img src={logo} className="logo-img-game" alt="Imagen del logo"/>
-            <Time/>
             {children}
         </div>
     )

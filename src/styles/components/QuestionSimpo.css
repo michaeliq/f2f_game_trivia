@@ -1,0 +1,68 @@
+.question-simpo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.question-simpo-a {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../resources/modulo_competidor_abajo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+.question-simpo-b {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../resources/modulo_competidor_arriba.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+.question-simpo-c {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../resources/modulo_competidor_abajo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+.question-simpo-d {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../resources/modulo_competidor_arriba.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+.question-simpo-a:hover,.question-simpo-b:hover,.question-simpo-c:hover,.question-simpo-d:hover{
+    scale: 1.1;
+    cursor: pointer;
+}

@@ -4,13 +4,13 @@
     align-items: center;
     position: relative;
     width: 50vw;
-    height: 50px;
-    top:-1vh;
+    height: 100px;
+    top:-5vh;
 }
 
 .module-question {
     width: 50vw;
-    height: 50px;
+    height: 100px;
     position: relative;
     position: absolute;
     top:0;

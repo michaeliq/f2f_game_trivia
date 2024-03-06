@@ -1,7 +1,7 @@
 import module_panel from "../resources/modulo_panel.png"
 import "../styles/components/PanelGame.css"
 
-const PanelGame = () => {
+const PanelGame = ({text}) => {
 
     const formatQuestion = (q) => {
         const count_words = q.split(" ")
@@ -22,15 +22,15 @@ const PanelGame = () => {
                 return paragraph
             }
         }else{
-            return [].push(q)
+            return [q]
         }
     }
-    const pretext = "Lorem ipsum dolor, sit amet consectetur adipisicing"
-    const text = formatQuestion(pretext)
+    const pretext = text
+    const textParser = formatQuestion(pretext)
     return(
         <div className="panel-game">
             <img src={module_panel} className="module-panel" alt="Imagen del Panel"/>
-            {text.map((textItem,key) =>(
+            {textParser.map((textItem,key) =>(
                 <p key={key}>{textItem}</p>
             ))}
         </div>

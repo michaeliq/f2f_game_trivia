@@ -6,3 +6,42 @@
     position: relative;
     top: 2rem
 }
+
+.display-qr-box{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2vh;
+    background-image: url("../../resources/modulo_competidor_abajo.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 250px;
+    transition: .3s ease-in-out;
+}
+
+.display-qr-box:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.display-data-question-box{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+.display-data-question-box:hover{
+    cursor: pointer;
+    color:aqua;
+}

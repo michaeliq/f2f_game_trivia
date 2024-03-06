@@ -1,6 +1,6 @@
 .module-option{
-    width: 33vw;
-    height: 56px;
+    width: 38vw;
+    height: 65px;
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -31,4 +31,5 @@
 
 .module-option > p{
     margin-left: 7.8rem;
+    font-size: 1.2rem;
 }
