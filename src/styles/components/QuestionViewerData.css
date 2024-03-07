@@ -3,8 +3,6 @@
     height: 100vh;
     position: absolute;
     background-color: #0008;
-    top: -10vh;
-    left: -10vw;
     z-index: 10000;
     display: flex;
     flex-direction: column;
@@ -13,23 +11,44 @@
 }
 
 .module-panel-viewer-data{
-    width: 900px;
-    height: 600px;
+    width: 50vw;
+    height: 75vh;
     margin: 0 auto;
     position: relative;
     z-index: -1;
 }
 
 .viewer-data-content{
-    width: 400px;
-    height: 400px;
+    width: 20vw;
+    height: 20vw;
     position: absolute;
-    top: 20vh;
+    top: 26vh;
+}
+
+.legend{
+    width: 50vw;
+    position: absolute;
+    top:-140px;
+    left: -10vw;
+}
+
+.legendChart{
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    align-items: center;
+}
+
+.legendChart-bg{
+    width: 50px;
+    height: 10px;
 }
 
 .question-viewer-data-container > .question-game{
     position: relative;
-    width: 800px;
+    width: 50vw;
     top: -4vh;
 }
 

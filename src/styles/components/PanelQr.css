@@ -3,13 +3,15 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    flex-direction: column;
     width: 100vw;
     height: 100vh;
-    top: -10vh;
-    left: -10vw;
     background-color: #0008;
     z-index: 10000;
+}
+
+.qr-code-box{
+    width: 80%;
+    height: 80%;
 }
 
 .panel-game-qr{
@@ -49,18 +51,18 @@ p{
 .display-qr-box-close{
     font-size: 1.2rem;
     font-weight: bolder;
+    margin-right: 4vw;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 20vh;
-    background-image: url("../../resources/modulo_competidor_abajo.png");
+    background-image: url("../../resources/menu_opt_background.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: auto;
-    width: 250px;
+    height: 100px;
+    width: 450px;
     transition: .3s ease-in-out;
 }
 

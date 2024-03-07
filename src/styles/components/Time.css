@@ -2,11 +2,12 @@
     position: absolute;
     width: 20vw;
     height: 70px;
-    right: -7vw;
+    right: 1vw;
     top: 16vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 100000;
 }
 
 .time-module{
